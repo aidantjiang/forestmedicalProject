@@ -1,4 +1,30 @@
-p {
-  background-color: red;
+* {
+  font-family: "Tiro Devanagari Sanskrit", serif;
 }
-/*# sourceMappingURL=style.css.map */
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  background-color: whitesmoke;
+}
+
+.country {
+  transition: fill 0.2s;
+}
+.country:hover {
+  fill: #207567;
+}
+
+#indicator {
+  visibility: visible;
+  height: auto;
+  width: 100%;
+  margin: 2px 0px 10px 0px;
+  background-color: #DFEAE2;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
