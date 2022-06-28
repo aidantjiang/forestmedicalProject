@@ -1,0 +1,13 @@
+$red-bg : red;
+p{    background-color: $red-bg;
+}
+#mystuff
+{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+}
+
