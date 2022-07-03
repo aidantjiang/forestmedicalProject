@@ -5,7 +5,10 @@
 
 body {
   background-color: #DFEAE2;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Parallax scrolling from looking at a tutorial*/
@@ -35,9 +38,6 @@ body {
 #Map {
   text-align: center;
   margin: auto;
-  padding-top: 30px;
-  width: 1500px;
-  height: 500px;
   background: white;
 }
 
@@ -100,4 +100,27 @@ body {
   margin-left: 4%;
 }
 
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+* {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+}
+
+svg {
+  background-color: whitesmoke;
+}
+
+.country {
+  transition: fill 0.2s;
+}
+.country:hover {
+  fill: #207567;
+}
+
+#indicator {
+  visibility: visible;
+  height: auto;
+  width: 100%;
+  margin: 2px 0px 10px 0px;
+  background-color: #DFEAE2;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
