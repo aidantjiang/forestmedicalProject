@@ -13,13 +13,6 @@ svg {
   background-color: whitesmoke;
 }
 
-.country {
-  transition: fill 0.2s;
-}
-.country:hover {
-  fill: #207567;
-}
-
 #indicator {
   visibility: visible;
   height: auto;
@@ -27,4 +20,29 @@ svg {
   margin: 2px 0px 10px 0px;
   background-color: #DFEAE2;
   text-align: center;
+}
+
+.country {
+  transition: 0.3s;
+}
+.country:hover {
+  transform: translateY(-4px);
+  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.8));
+}
+
+path:hover {
+  stroke: #646464;
+  stroke-width: 1px;
+  stroke-dasharray: 2, 0;
+  stroke-linejoin: round;
+}
+
+#canvas-containter {
+  display: flex;
+  flex-direction: row;
+}
+
+#info {
+  width: 0;
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */
