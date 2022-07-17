@@ -85,6 +85,12 @@ background-repeat:no-repeat;
 background-position:center;
 background-size:100%;
 }
+
+@media only screen and (max-width:749px) {
+    #Informationblock {
+      background-attachment: inherit;
+    }
+  }
 #paragrapha{
 padding-bottom:12%;
 padding-top:10%;
@@ -102,7 +108,7 @@ margin-top:50px;
 text-align:center;
 color:white;
 font-family:'Times New Roman', Times, serif;
-font-size:20px;
+font-size:25px;
 margin-left: 12%;
 margin-right:12%;
 background: rgba(0,0,0,0.5);
@@ -113,28 +119,27 @@ line-height: 120%;
 padding-top:50px;
 padding-bottom:50px;    
 }
+
 #MainStats{
-padding-bottom:0%;
-
-}
-.ParagraphM{
-font-size:19px;
-margin-left: 15%;
-margin-right:5%;
-display: inline-block;
-width:25%;
-height:auto; 
-padding-bottom:10%;  
+display:flex;
+width:100%;
 }
 
+.flexbox{
+flex:1;
+margin:5%
+}
 #graph{
-display:inline-block;
-margin-right:15%;
-position:middle;
+margin-right:5%     
 }
+
 #imggraph{
-max-width:100%;
-max-height:100%;
+width:80vh;
+}
+
+.ParagraphM{
+text-align: left;
+font-size:50vw;
 }
 
 footer{
