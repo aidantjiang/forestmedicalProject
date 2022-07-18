@@ -2,6 +2,19 @@
 padding:0;
 margin:0;
 }
+/*Adjusting Headers to be mobile compatible.*/
+@media all and (max-width:767px) {
+    .RegularTitle {
+    font-size:30px;
+    
+    }
+  }
+@media all and (min-width:768px) {
+    .RegularTitle {
+    font-size:55px;
+    }
+  }
+
  nav { 
  position:sticky; 
  top:0px;
@@ -66,13 +79,13 @@ background:white;
 }
 
 .RegularTitle{
-font-size:3vw;
 font-family:'Times New Roman', Times, serif;
 color:white;
 text-align:center;
 padding-top: 10px;
 padding-bottom: 1%;
 }
+
 
 #infotitle{
 padding-top:50px;
@@ -85,12 +98,28 @@ background-repeat:no-repeat;
 background-position:center;
 background-size:100%;
 }
-
-@media only screen and (max-width:749px) {
+/* Learning how to use media tabs from looking at a tutorial*/
+@media only screen and (max-width:767px) {
     #Informationblock {
-      background-attachment: inherit;
+    background-attachment: inherit;
     }
   }
+/*End of tutorial*/
+
+/*Adjusting Info Section to be mobile compatible.*/
+@media all and (max-width:767px) {
+    #Pinfo {
+    font-size:15px;
+    padding-bottom:30px;
+    margin-bottom:10px;
+    }
+  }
+@media all and (min-width:768px) {
+    #Pinfo {
+    font-size:28px;
+    }
+  }
+
 #paragrapha{
 padding-bottom:12%;
 padding-top:10%;
@@ -108,7 +137,6 @@ margin-top:50px;
 text-align:center;
 color:white;
 font-family:'Times New Roman', Times, serif;
-font-size:25px;
 margin-left: 12%;
 margin-right:12%;
 background: rgba(0,0,0,0.5);
@@ -117,30 +145,41 @@ line-height: 120%;
 
 #statstitle{
 padding-top:50px;
-padding-bottom:50px;    
+padding-bottom:10px;    
 }
-
-#MainStats{
-display:flex;
-width:100%;
-}
-
-.flexbox{
-flex:1;
-margin:5%
-}
-#graph{
-margin-right:5%     
-}
+/*Adjusting Stats to be mobile compatible.*/
+@media all and (max-width:767px) {
+    #graph {
+    display:block;
+    float:left;
+    margin-right:4px;
+    }
+    .ParagraphM{
+    display:block;
+    float:left;
+    }
+  }
+@media all and (min-width:768px) {
+    #MainStats{
+    display:flex;
+    width:100%;
+    }
+    .flexbox{
+    flex:1;
+    margin:5%
+    }
+    #graph {
+    display:inline-block;
+    }
+    #Paragraph1{
+    display:inline-block;
+    }
+  }
 
 #imggraph{
-width:80vh;
+width:40vw;
 }
 
-.ParagraphM{
-text-align: left;
-font-size:50vw;
-}
 
 footer{
 width:100%;
