@@ -60,30 +60,52 @@
 <!--End of info-->
 
 <!--Beginning of stats-->
-<h1 id="statstitle" class="RegularTitle">Predicting Future Levels of Deforestation</h1>
-<div id="MainStats">
-<div id="graph" class="flexbox"><img id="imggraph"src="Stats.png"/></div>
+<h1 id="statstitle" class="RegularTitle">Analyzing and Predicting Future Levels of Deforestation</h1>
+<div class="MainStats">
+<div id="graph" class="flexbox"><img id="imggraph"src="GlobalHectares.png"/></div>
 <div id="ParagraphM" class="flexbox">
+<h2 class="StatsSub">Analyzing Presents Levels</h2>
 <p id="Paragraph1">
-  tempor incididunt ut labore et dolore magna aliqua. Urna porttitor rhoncus
-  dolor purus non enim. Est ultricies integer quis auctor elit sed vulputate
-  mi sit. Neque volutpat ac tincidunt vitae semper quis. Sed viverra tellus
-  in hac habitasse platea dictumst vestibulum rhoncus. Enim nec dui nunc mattis
-  enim ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci. 
-  In tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet
-  orttitor eget dolor morbi. Massa tempor nec feugiat nisl pretium fusce id
-  velit. Purus in massa tempor nec feugiat nisl pretium. Fermentum posuere 
-  urna nec tincidunt praesent semper.Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Eu scelerisque
-  felis imperdiet proin. Accumsan in nisl nisi scelerisque. Risus ultricies tristique
-  nulla aliquet enim tortor at auctor urna. Imperdiet nulla malesuada pellentesque
-  elit. Viverra ipsum nunc aliquet bibendum enim. Mollis aliquam ut porttitor leo
-  a diam sollicitudin. Vel facilisis volutpat est velit egestas dui. Urna neque 
-  viverra justo nec. Lacus luctus accumsan tortor posuere ac ut consequat semper 
-  viverra. Aenean euismod elementum nisi quis eleifend. Sagittis orci a scelerisque
-  purus semper eget duis at.</br>
+  Deforestation continues to plague the Earth, and it’s now how
+   much we can still save. Internationally, we continue to decline 
+   in forest area, and currently, in 2022 we are at the lowest point.
+    To keep this in perspective, we have lost ~0.01% of our total forest area.
+     Although this may not seem like much, we have lost ~196156814 hectares of 
+     forest area since 1990. General T-Tests show that every country has a unique data set of forest areas.
+ This establishes the point that not any one country is causing deforestation,
+  instead a specific group of countries. To confirm this, first, the F-test was used to 
+  confirm a significant difference between the tested groups. Next, a one-way ANOVA test
+   was used to determine significant differences. Finally, a post-hoc Tukey HSD test was 
+   used to determine if these differences were due to error. The ANOVA test revealed that
+    the size of a country heavily affects the rate of deforestation. The post-hoc Tukey HSD
+     test rejected the null hypothesis that these results were due to error. So although
+      larger countries such as the US experience more hectares of forest area lost, Honduras,
+       Nigeria, and the Philippines have experienced the most deforestation in regards to the 
+       percentage decline of forest area. Not surprisingly, they also all have the largest percent 
+       variation in forest area since 1990. That said, larger countries such as the US, China,
+        and Australia contribute the most to lost hectares of forest area since 1990, due to
+         their originally large forest area. T-Tests between smaller countries revealed that
+          not only the percent rate of deforestation is very similar, but also the hectares of
+           forest area lost. The smallest countries themselves cannot contribute much to global
+            deforestation, as the ANOVA tests show as well. All tests used a p-value significance 
+            level of 0.05 (5%). 95% confidence rate with T-Tests also used to prevent type 1 T-Test error
+             (false negative).
   </p>
 </div>
 </div>
+
+<div class="MainStats">
+  <div id="graph2" class="flexbox"><img id="imggraph"src="2030Predictions.png"/></div>
+  <div id="ParagraphM2" class="flexbox">
+  <h2 class="StatsSub">Predicting the Future</h2>
+  <p id="Paragraph2">
+    The scatter plot, Predictions 2030, depicts future levels of global hectares of forest area vs. year.
+  The r^2 value is higher since predictions fit the regression model perfectly. The trend of the subtle decline of the global forest
+    area year by year is still presents 10 years into the future. By 2030, the global amount of forestry in the world reaches just below 4,000,000,000 hectares. 
+
+    </p>
+  </div>
+  </div>
 <!--End of stats-->
     <footer>
     <p id="Quote">"Reversing Deforestation is Complicated; Planting Trees is Simple" - Martin O'Malley</p>
